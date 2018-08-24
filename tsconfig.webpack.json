@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "**/test.module.ts",
+    "**/setupJest.ts",
+    "**/jestGlobalMocks.ts",
+    "**/*.spec.ts"
+  ]
+}
